@@ -11,6 +11,8 @@
 		D5B6544A26F7ACC700932E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6544926F7ACC700932E01 /* ContentView.swift */; };
 		D5B6544C26F7ACCA00932E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B6544B26F7ACCA00932E01 /* Assets.xcassets */; };
 		D5B6544F26F7ACCA00932E01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B6544E26F7ACCA00932E01 /* Preview Assets.xcassets */; };
+		D5B6545626F8FE3300932E01 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6545526F8FE3300932E01 /* ContentViewModel.swift */; };
+		D5B6545826F8FE9200932E01 /* ShazamMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6545726F8FE9200932E01 /* ShazamMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D5B6544926F7ACC700932E01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5B6544B26F7ACCA00932E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B6544E26F7ACCA00932E01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B6545526F8FE3300932E01 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D5B6545726F8FE9200932E01 /* ShazamMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D5B6544926F7ACC700932E01 /* ContentView.swift */,
 				D5B6544B26F7ACCA00932E01 /* Assets.xcassets */,
 				D5B6544D26F7ACCA00932E01 /* Preview Content */,
+				D5B6545526F8FE3300932E01 /* ContentViewModel.swift */,
+				D5B6545726F8FE9200932E01 /* ShazamMedia.swift */,
 			);
 			path = "Find My Rhythm";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B6545826F8FE9200932E01 /* ShazamMedia.swift in Sources */,
 				D5B6544A26F7ACC700932E01 /* ContentView.swift in Sources */,
 				D5B6544826F7ACC700932E01 /* Find_My_RhythmApp.swift in Sources */,
+				D5B6545626F8FE3300932E01 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
