@@ -23,6 +23,7 @@
 		D5B6544E26F7ACCA00932E01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5B6545526F8FE3300932E01 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D5B6545726F8FE9200932E01 /* ShazamMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamMedia.swift; sourceTree = "<group>"; };
+		D5B6545926FA567300932E01 /* Find-My-Rhythm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Find-My-Rhythm-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		D5B6544626F7ACC700932E01 /* Find My Rhythm */ = {
 			isa = PBXGroup;
 			children = (
+				D5B6545926FA567300932E01 /* Find-My-Rhythm-Info.plist */,
 				D5B6544726F7ACC700932E01 /* Find_My_RhythmApp.swift */,
 				D5B6544926F7ACC700932E01 /* ContentView.swift */,
 				D5B6544B26F7ACCA00932E01 /* Assets.xcassets */,
@@ -280,6 +282,10 @@
 				DEVELOPMENT_TEAM = 6AD2RY8S5T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-My-Rhythm-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Find My Rhythm";
+				INFOPLIST_KEY_CFBundleName = "Find My Rhythm";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +316,10 @@
 				DEVELOPMENT_TEAM = 6AD2RY8S5T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-My-Rhythm-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Find My Rhythm";
+				INFOPLIST_KEY_CFBundleName = "Find My Rhythm";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
