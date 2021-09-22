@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D556E5B326FBA89300C5B54C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556E5B226FBA89300C5B54C /* ContentViewModel.swift */; };
 		D5B6544826F7ACC700932E01 /* Find_My_RhythmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6544726F7ACC700932E01 /* Find_My_RhythmApp.swift */; };
 		D5B6544A26F7ACC700932E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6544926F7ACC700932E01 /* ContentView.swift */; };
 		D5B6544C26F7ACCA00932E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B6544B26F7ACCA00932E01 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D556E5B226FBA89300C5B54C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D5B6544426F7ACC700932E01 /* Find My Rhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Rhythm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B6544726F7ACC700932E01 /* Find_My_RhythmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_RhythmApp.swift; sourceTree = "<group>"; };
 		D5B6544926F7ACC700932E01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D556E5B126FBA86300C5B54C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D556E5B226FBA89300C5B54C /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D5B6543B26F7ACC700932E01 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		D5B6544626F7ACC700932E01 /* Find My Rhythm */ = {
 			isa = PBXGroup;
 			children = (
+				D556E5B126FBA86300C5B54C /* ViewModel */,
 				D5B6545926FA567300932E01 /* Find-My-Rhythm-Info.plist */,
 				D5B6544726F7ACC700932E01 /* Find_My_RhythmApp.swift */,
 				D5B6544926F7ACC700932E01 /* ContentView.swift */,
@@ -149,6 +160,7 @@
 				D5B6544A26F7ACC700932E01 /* ContentView.swift in Sources */,
 				D5B6544826F7ACC700932E01 /* Find_My_RhythmApp.swift in Sources */,
 				D5B6545626F8FE3300932E01 /* ContentViewModel.swift in Sources */,
+				D556E5B326FBA89300C5B54C /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

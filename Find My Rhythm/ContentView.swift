@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ContentView: View {
     @StateObject private var viewModel = ContentViewModel()
 
@@ -48,7 +49,7 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                 }.padding()
                 Spacer()
-                Button(action: {viewModel.startOrEndListening()}) {
+                Button(action: {viewModel.startOrEndListening}) {
                     Text(viewModel.isRecording ? "Listening..." : "Start Shazaming")
                         .frame(width: 300)
                 }.buttonStyle(.bordered)
@@ -60,6 +61,7 @@ struct ContentView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
