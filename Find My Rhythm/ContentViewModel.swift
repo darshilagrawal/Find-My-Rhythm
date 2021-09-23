@@ -13,7 +13,7 @@ class ContentViewModel: NSObject, ObservableObject {
     @Published var shazamMedia =  ShazamMedia(title: "Title...",
                                               subtitle: "Subtitle...",
                                               artistName: "Artist Name...",
-                                              albumArtURL: URL(string: "https://google.com"),
+                                              albumArtURL: URL(string: "https://www.shazam.com"),
                                               genres: ["Pop"])
     @Published var isRecording = false
     private let audioEngine = AVAudioEngine()
