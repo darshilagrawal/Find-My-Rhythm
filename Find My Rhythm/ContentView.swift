@@ -10,11 +10,11 @@ import SwiftUI
 @available(iOS 15.0, *)
 struct ContentView: View {
     @StateObject private var viewModel = ContentViewModel()
-
+    
     var body: some View {
         ZStack {
             AsyncImage(url: viewModel.shazamMedia.albumArtURL) { image in
-                    image
+                image
                     .resizable()
                     .scaledToFill()
                     .blur(radius: 10, opaque: true)
@@ -26,7 +26,7 @@ struct ContentView: View {
             VStack(alignment: .center) {
                 Spacer()
                 AsyncImage(url: viewModel.shazamMedia.albumArtURL) { image in
-                        image
+                    image
                         .resizable()
                         .frame(width: 300, height: 300)
                         .aspectRatio(contentMode: .fit)

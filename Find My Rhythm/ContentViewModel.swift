@@ -25,7 +25,7 @@ class ContentViewModel: NSObject, ObservableObject {
         session.delegate = self
     }
     
-    func listeningTriggered(){
+    func listeningTriggered() {
         guard !audioEngine.isRunning else {
             audioEngine.stop()
             DispatchQueue.main.async {
@@ -66,10 +66,10 @@ extension ContentViewModel: SHSessionDelegate {
         
         if let firstItem = mediaItems.first {
             let foundShazamMedia = ShazamMedia(title: firstItem.title,
-                                           subtitle: firstItem.subtitle,
-                                           artistName: firstItem.artist,
-                                           albumArtURL: firstItem.artworkURL,
-                                           genres: firstItem.genres)
+                                               subtitle: firstItem.subtitle,
+                                               artistName: firstItem.artist,
+                                               albumArtURL: firstItem.artworkURL,
+                                               genres: firstItem.genres)
             DispatchQueue.main.async {
                 self.shazamMedia = foundShazamMedia
             }

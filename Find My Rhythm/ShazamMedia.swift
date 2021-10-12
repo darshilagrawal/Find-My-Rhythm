@@ -14,7 +14,7 @@ struct ShazamMedia: Decodable {
     let albumArtURL: URL?
     let genres: [String]
     
-    init?(title:String, subtitle:String, albumArtURL: URL, genres: [String] ) {
+    init?(title:String, subtitle:String, albumArtURL: URL, genres: [String]) {
         self.title = title
         self.subtitle = subtitle
         self.artistName = artistName
